@@ -1,0 +1,11 @@
+{
+  "cline.mcpServers": {
+    "tenancy-for-laravel-docs": {
+      "command": "node",
+      "args": ["/absolute/path/to/tenancy-for-laravel-docs/dist/index.js"],
+      "env": {
+        "CACHE_DIR": "/absolute/path/to/tenancy-for-laravel-docs/.cache"
+      }
+    }
+  }
+}

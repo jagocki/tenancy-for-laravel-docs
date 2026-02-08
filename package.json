@@ -1,0 +1,36 @@
+{
+  "name": "tenancy-for-laravel-docs-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for accessing Tenancy for Laravel documentation",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "tenancy-for-laravel-docs-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "tenancy",
+    "laravel",
+    "documentation",
+    "multi-tenancy"
+  ],
+  "author": "jagocki",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  }
+}
