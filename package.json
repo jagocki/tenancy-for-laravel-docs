@@ -19,7 +19,7 @@
     "documentation",
     "multi-tenancy"
   ],
-  "author": "",
+  "author": "jagocki",
   "license": "MIT",
   "engines": {
     "node": ">=20.18.1"

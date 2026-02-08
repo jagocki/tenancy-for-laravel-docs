@@ -109,8 +109,8 @@ async function cachePage(path: string, page: DocumentationPage): Promise<void> {
   }
 }
 
-// Known documentation sections and pages based on Tenancy for Laravel v3 structure
-// v4 documentation should have similar structure
+// Known documentation sections and pages for Tenancy for Laravel v4
+// Structure is based on the v3 navigation which v4 inherits
 const KNOWN_SECTIONS = {
   "introduction": [
     "introduction",
